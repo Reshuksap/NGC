@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Josefin+Sans:wght@300;600&family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&display=swap');
 *{
-    scroll-behavior: smooth;
+    scrollbar-color: smooth;
+    scrollbar-color: rgb(32, 32, 78);
 }
 
 header{
@@ -43,12 +45,12 @@ p{
     font-family: Arial;
 }
 button a{
-    background-color: #07d3f7;
+    background-color: #07f72f;
     color: #fff;
     font-family: 'Rubik';
     font-size: 2rem;
     border-radius: 2%;
-    border: #07d3f7 solid 2px;
+    border: #07f72f solid 2px;
 }
 button a:hover{
     border: #07f751 solid 2px;
@@ -78,7 +80,8 @@ h4{
     font-size: 16px;
     text-align: center;
     padding-left: 20px;
-    color: #777677;
+    color: #221b1b;
+    font-family:'Arimo';
 }
 main{
     background-color: #00ff6a;

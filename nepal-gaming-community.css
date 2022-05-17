@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(32, 32, 78);
+    font-family: 'Rubik',Arial;
+}
+.container {
+    width: 100%;
+}
+li {
+    list-style: none;
+    color: #fff;
+    text-align: right;
+    float: left;
+    font-family: 'Rubik';
+    
+}
+.container a {
+    font-size: 20px;
+    padding-right: 10px;
+}
+span{
+    color: aqua;
+    position:inherit;
+}
+.container a:hover{
+    text-decoration: underline;
+    
+}
+h2{
+    text-align: center;
+    color:rgb(130 203 245) ;
+    font-size: 70px;
+    padding-top: 140px;
+}
+p{
+    text-align: center;
+    color: #07f751;
+    ;
+    font-family: Arial;
+}
+button a{
+    background-color: #07d3f7;
+    color: #fff;
+    font-family: 'Rubik';
+    font-size: 2rem;
+    border-radius: 2%;
+    border: #07d3f7 solid 2px;
+}
+button a:hover{
+    border: #07f751 solid 2px;
+    background: transparent;
+}
+.line span{
+    color: #07f751;
+    width: 500px;
+}
+h3{
+    color: #07f7eb;
+    font-family: 'Rubik';
+    font-size: 55px;
+   text-align: left;
+}
+h4{
+    font-size: 24px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.free-fire{
+    width: 30%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.p-intro{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 20px;
+    color: #777677;
+}
+main{
+    background-color: #00ff6a;
+}

@@ -1,88 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Josefin+Sans:wght@300;600&family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Josefin+Sans:wght@300;600&family=Poppins&family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&family=Smooch&display=swap');
 *{
-    scrollbar-color: smooth;
-    scrollbar-color: rgb(32, 32, 78);
+  margin: 0;
+  box-sizing:border-box;
+  font-family: 'Poppins','Rubik';
+  scroll-behavior: smooth;
+}
+.container{
+  background-color: rgb(150, 186, 201);
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.logo{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 20px;
+}
+.nav{
+  text-align: center;
+}
+.nav a{
+  height: 50vh;
+  width: 50%;
+  
+  text-decoration: none;
+  color: #fff;
+  padding-left: 30px;
+}
+.nav a:hover{
+    opacity: 80%;
+    
 }
 
-header{
-    background-color: rgb(32, 32, 78);
-    font-family: 'Rubik',Arial;
-}
-.container {
-    width: 100%;
-}
-li {
-    list-style: none;
-    color: #fff;
-    text-align: right;
-    float: left;
-    font-family: 'Rubik';
-    
-}
-.container a {
-    font-size: 20px;
-    padding-right: 10px;
-}
-span{
-    color: aqua;
-    position:inherit;
-}
-.container a:hover{
-    text-decoration: underline;
-    
-}
 h2{
-    text-align: center;
-    color:rgb(130 203 245) ;
-    font-size: 70px;
-    padding-top: 140px;
-}
-p{
-    text-align: center;
-    color: #07f751;
-    ;
-    font-family: Arial;
-}
-button a{
-    background-color: #07f72f;
-    color: #fff;
-    font-family: 'Rubik';
-    font-size: 2rem;
-    border-radius: 2%;
-    border: #07f72f solid 2px;
-}
-button a:hover{
-    border: #07f751 solid 2px;
-    background: transparent;
-}
-.line span{
-    color: #07f751;
-    width: 500px;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 32px;
+  color: rgb(160, 117, 53);
 }
 h3{
-    color: #07f7eb;
-    font-family: 'Rubik';
-    font-size: 55px;
-   text-align: left;
+  font-size: 25px;
 }
-h4{
-    font-size: 24px;
-    padding-top: 50px;
-    padding-left: 20px;
-}
-.free-fire{
-    width: 30%;
-    padding-left: 40px;
-    padding-top: 30px;
-}
-.p-intro{
-    font-size: 16px;
-    text-align: center;
-    padding-left: 20px;
-    color: #221b1b;
-    font-family:'Arimo';
-}
-main{
-    background-color: #00ff6a;
+footer{
+  text-align: center;
 }

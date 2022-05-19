@@ -12,6 +12,7 @@
   top: 0;
   bottom: 0;
   z-index: -1;
+  size: cover;
 }
 .logo{
   color: #fff;
@@ -42,8 +43,21 @@ h2{
   color: rgb(160, 117, 53);
 }
 h3{
-  font-size: 25px;
+  font-size: 20px;
 }
 footer{
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .container{
+    background-color: rgb(78, 32, 67);
+    color: #fff;
+    height:100vh;
+    
+  }
+span{
+  color: rgb(139, 93, 40);
+}
+
 }

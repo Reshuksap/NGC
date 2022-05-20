@@ -59,3 +59,13 @@ button{
     border-radius: 2px;
     padding-top: 2px;
 }
+@media only screen and (max-width: 800px){
+    .body{
+        
+        background-color: rgb(78, 32, 67);
+        color: #fff;
+        height:150vh;
+        
+    }
+    
+}

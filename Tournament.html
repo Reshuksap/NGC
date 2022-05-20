@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" href="444.png" src="444.png">
-  <link
-  rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
+  <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+<script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<link rel="stylesheet" href="Tournament.css">
+
   <title>Nepal Gaming Comunity- Garena Free Fire</title>
   <style>
      @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Josefin+Sans:wght@300;600&family=Poppins&family=Roboto+Slab&family=Rubik+Beastly&family=Rubik:wght@300&family=Smooch&display=swap');
@@ -18,13 +19,12 @@
   box-sizing:border-box;
   font-family: 'Poppins','Rubik';
 }
-.container{
-  background-color: rgb(150, 186, 201);
+
+.body{
+  background-color: rgb(194, 200, 226);
   height: 100vh;
   width: 100%;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+
 }
 .logo{
   color: #fff;
@@ -47,11 +47,14 @@
     opacity: 80%;
     
 }
- 
+footer{
+  text-align: center;
+}
+
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="body">
     <a href="nepal-gaming-community.html" class="logo">
       
     <span style="color: rgb(56, 56, 110);">Nepal</span>
@@ -64,41 +67,75 @@
       <a href="#">About</a>
       <a href="#">Contact</a>
     </div>
- <form action="#">
-     <h1 style="color: #fff;">Please fill the Detials *</h1>
-     <p>Name <br>
-        <input type="text" placeholder="Name" required></p>
-        <p>E-mail <br>
+  
+<div class="formsection">
+   <div class="title">Tournament Registeraton</div>
+   <form action="#">
+     <div class="user-details">
+       <div class="input-box">
+         <span class="detials">Full Name</span>
+         <input type="text" placeholder="Name" required>
+       </div>
+       <div class="input-box">
+        <span class="detials">E-mail</span>
         <input type="text" placeholder="E-mail" required>
-        </p>
-        <p>Phone-Number <br>
-        <input type="numbers" placeholder="Phone Number" numbers>
-        </p>
-        <label for="country">Select-Country and Game</label> <br>
-            <select id="list">
-              <option value="Nepal">Nepal</option>
-              <option value="India">India</option>
-              <option value="Pakistan">Pakistan</option>
-              <option value="Thailand">Thailand</option>
-              <option value="Cambodia">Cambodia</option>
-              <option value="S.korea">S.korea</option>
-               <option value="Philippines">Philippines</option>
-              <option value="Singapore">Singapore</option>
-              <option value="Indonesia">Indonesia</option>
-              <option value="Japan">Japan</option>
-            </select>
-                <select name="game">
-                    <option value="free fire">Free Fire</option>
-                    <option value="Pubg-mobile">Pubg</option>
-                    <option value="Pubg-pc">Pubg(pc)</option>
-                    <option value="Mobile Legend">Mobile Legend</option>
-                     <option value="Dota">Dota2</option>
-                </select>
-                <p>Team Name <br> <input type="text" placeholder="Team Name"></p>
-               <p>Captian Name <br></Caption><input type="text" placeholder="Team Captian Name"></p>
-            <input type="submit" value="Sumbit">
-        
- </form>
+      </div>
+      <div class="input-box">
+        <span class="detials">Phone Number</span>
+        <input type="text" placeholder="Phone Number" only="number">
+      </div>
+      <div class="input-box">
+        <span class="detials">Team Name</span>
+        <input type="text" placeholder="Team Name">
+      </div>
+      <div class="input-box">
+        <span class="detials">Captain Name</span>
+        <input type="text" placeholder="Captain Name" >
+      </div>
+      <div class="select">
+        <span class="detials">Select-country</span>
+        <select name="country">
+        <option value="nepal">Nepal</option>
+        <option value="India">India</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Indonesia">Indonesia</option>
+        </select>
+      </div>
+      <div class="select">
+        <span class="detials">Game</span>
+        <select name="Game" >
+          <option value="Free Fire">Free Fire</option>
+          <option value="Pubg(pc)">Pubg(pc)</option>
+          <option value="pubg mobile">Pubg mobile</option>
+          <option value="COD(pc)">COD(pc)</option>
+          <option value="COD">COD</option>
+        </select>
+      </div>
+      <div class="select">
+        <span class="detials">Number of players</span>
+        <select name="option" >
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="more">More than 4</option>
+        </select>
+      </div>
+  
+      <div class="select">
+        <span class="">Captian Citizenship</span>
+        <input type="file" required>
+      </div>
+      <div class="button">
+        <button type="submit" value="sumbit" style="width: 100%;">Register Tournament</button>
+      </div>
+    </div>
+     </div>
+   </form>
 </div>
+<footer>
+  2022 copyright Nepal Gaming Community
+</footer>
 </body>
   </html>
